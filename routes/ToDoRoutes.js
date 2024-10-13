@@ -8,9 +8,9 @@ const {
 
 const router = Router();
 
-router.get("/get", getToDos);
-router.post("/save", saveToDo);
-router.put("/update/:id", updateToDo);
-router.delete("/delete/:id", deleteToDo);
+router.get("/get", getToDos);          
+router.get("/save", saveToDo);         
+router.get("/update/:id", updateToDo);  
+router.get("/delete/:id", deleteToDo);
 
 module.exports = router;
